@@ -7,8 +7,8 @@ This repo contains exercises for use in class.
 1. Fork and clone the repo
 2. Run `npm install`
 
-The exercises are split into two folders: `A-pass-tests` and `B-write-tests`.
-Within each of these folders there are 3 `mandatory` exercises which you should try and complete during class. There is also an `extra` exercise which you can try and complete if you have time, but you are not required to finish them.
+The exercises are split into three folders: `A-pass-tests`, `B-write-tests` and `C-TDD`
+Within each of these folders there are `mandatory` exercises which you should try and complete during class. There are also `extra` exercises which you can try and complete if you have time, but you are not required to finish them.
 
 ## Usage
 
@@ -27,6 +27,10 @@ The first set of exercises involve a set of tests that we will write code to mak
 The second set of exercises involve implemented code that we will add tests for. You can run only the tests in the _B-write-tests_ folder by running `npm test B-write-tests` or you can run them with a watch with `npm test B-write-tests --watch`.
 
 Think about **edge cases** while writing tests.
+
+### TDD
+
+The final exercise involves using TDD to implement the function. You can run only the tests in the _C-TDD_ folder by running `npm test C-TDD` or you can run them with a watch with `npm test C-TDD --watch`.
 
 ## Solutions
 

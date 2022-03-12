@@ -39,3 +39,9 @@ The solutions for this classwork can be found here:
 https://github.com/CodeYourFuture/JavaScript-Core-3-Classwork-Week4-London8-Solution
 
 This is a **private** repository. Please request access from your Teachers, Buddy or City Coordinator after the lesson.
+
+
+### Running tests using Github actions
+As part of the coursework you should add to the file located here: `.github/workflows/run-tests.yml` to run your tests
+First fork this PR and then make it so on a pull request the tests run, and should pass.
+Remember the steps we have done to setup tests in class, and then how to run them.

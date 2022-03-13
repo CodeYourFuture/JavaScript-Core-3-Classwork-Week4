@@ -1,3 +1,4 @@
 module.exports = function addOne(numbers) {
-  /* Implement the function to make the tests pass */
+  let copyOfArray = numbers;
+ return copyOfArray.map((x) => x + 1);
 };

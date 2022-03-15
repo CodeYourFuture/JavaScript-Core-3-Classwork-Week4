@@ -7,7 +7,7 @@ This repo contains exercises for use in class.
 1. Fork and clone the repo
 2. Run `npm install`
 
-The exercises are split into three folders: `A-pass-tests`, `B-write-tests` and `C-TDD`
+The exercises are split into three folders: `A-make-tests-pass`, `B-write-tests` and `C-TDD`
 Within each of these folders there are `mandatory` exercises which you should try and complete during class. There are also `extra` exercises which you can try and complete if you have time, but you are not required to finish them.
 
 ## Usage
@@ -20,7 +20,7 @@ To run a specifc test, run `npm test <filname>` for example `npm test remove-vow
 
 ### Pass Tests
 
-The first set of exercises involve a set of tests that we will write code to make it pass. You can run only the tests in the _A-pass-tests_ folder by running `npm test A-pass-tests` or you can run them with a watch with `npm test A-pass-tests --watch`.
+The first set of exercises involve a set of tests that we will write code to make it pass. You can run only the tests in the _A-make-tests-pass_ folder by running `npm test A-make-tests-pass` or you can run them with a watch with `npm test A-make-tests-pass --watch`.
 
 ### Write Tests
 
@@ -39,3 +39,9 @@ The solutions for this classwork can be found here:
 https://github.com/CodeYourFuture/JavaScript-Core-3-Classwork-Week4-London8-Solution
 
 This is a **private** repository. Please request access from your Teachers, Buddy or City Coordinator after the lesson.
+
+
+### Running tests using Github actions
+As part of the coursework you should add to the file located here: `.github/workflows/run-tests.yml` to run your tests
+First fork this PR and then make it so on a pull request the tests run, and should pass.
+Remember the steps we have done to setup tests in class, and then how to run them.

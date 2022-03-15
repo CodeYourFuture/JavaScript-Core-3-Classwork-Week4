@@ -6,4 +6,11 @@ test("return person's name prefixed with Hello", () => {
   // Arrange
   // Act
   // Assert
+
+  const item = "Sam"
+  const output = greetPerson(item);
+  const expected = "Hello Sam";
+  
+
+  expect(output).toEqual(expected);
 });

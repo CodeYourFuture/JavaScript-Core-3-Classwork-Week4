@@ -1,2 +1,9 @@
 # Fill out this file to get your tests running on Github
 # Documentation https://docs.github.com/en/actions/quickstart
+name: Run mandatory tests
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      - name: Run mandatory tests
+      - run: npm test

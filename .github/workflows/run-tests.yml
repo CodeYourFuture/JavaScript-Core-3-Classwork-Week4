@@ -1,2 +1,12 @@
 # Fill out this file to get your tests running on Github
 # Documentation https://docs.github.com/en/actions/quickstart
+
+name: GitHub Actions Demo
+on: pull_request
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: 'npm install'
+      - run: "npm test"

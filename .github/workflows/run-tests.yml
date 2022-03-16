@@ -3,7 +3,7 @@
 name: run mandatory test
 on: pull_requests
 jobs:
-  run-tests:
+  build:
     runs-on: ubuntu-latest
     steps:
    -name: Checkout

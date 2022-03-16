@@ -1,2 +1,30 @@
 # Fill out this file to get your tests running on Github
 # Documentation https://docs.github.com/en/actions/quickstart
+# name: run mandatory test
+# on: pull_request
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#    -name: Checkout
+#     uses: actions/checkout@v2
+#   # Install npm dependencies, cache them correctly
+#   # Run all tests
+#    -name: Install modules
+#     run: npm install
+#    -name: Jest run
+#     run: npm test
+
+name: run mandatory test
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install modules
+      run: npm install
+    - name: run tests
+      run: npm test
+     

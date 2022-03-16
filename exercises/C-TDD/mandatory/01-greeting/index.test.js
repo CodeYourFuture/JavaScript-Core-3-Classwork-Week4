@@ -19,12 +19,6 @@ test("When name is all uppercase", () => {
 test("Handle two names of input.", () => {
   expect(greet(["Jill", "Jane"])).toEqual("Hello, Jill and Jane.");
 });
-
-//Handle an arbitrary number of `names` as input.
-//  When `name` represents more than two names, separate them with commas and close with an Oxford comma and "and".
-//  For example, when `name` is `["Amy", "Brian", "Charlotte"]`,
-//   then the method should return the string `"Hello, Amy, Brian, and Charlotte."`
-
 test("Handle an arbitrary number of `names` as input.", () => {
   expect(greet(["Amy", "Brian", "Charlotte"])).toEqual(
     "Hello, Amy, Brian, and Charlotte."

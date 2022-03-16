@@ -3,11 +3,8 @@
 const getWordLengths = require("./get-word-lengths");
 
 test("Returns the word lengths", () => {
-  // Arrange
-  const result = getWordLengths(words)
-  //Act
   const words = ["sun", "potato", "roundabout", "pizza"];
   const expected = [3, 6, 10, 5];
-  //Assert
+  const result = getWordLengths(words)
   expect(result).toEqual(expected);
 });

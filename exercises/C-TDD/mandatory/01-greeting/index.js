@@ -1,12 +1,20 @@
 const greet = (name) => {
     
-    if(!name){
-        return `Hello, my friend`;//
+    // if(!name){
+    //     return `Hello, my friend`;//
         
-    }if(name === name.toUpperCase()){
-        return `HELLO, ${name.toUpperCase()}`; 
+    // }if(name === name.toUpperCase()){
+    //     return `HELLO, ${name.toUpperCase()}`; 
        
-    }  return `Hello, ${name}`; //Hello, Bob
+    // }  return `Hello, ${name}`; //Hello, Bob
+    if(!name){
+        return `Hello my friend`;
+    }
+    if(name === name.toUpperCase()){
+        return `Hello ${name}`;
+    }else
+    {return `Hello, ${name}`;}
+   
     
 }
 

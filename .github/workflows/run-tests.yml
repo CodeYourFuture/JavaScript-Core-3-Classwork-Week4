@@ -1,2 +1,16 @@
 # Fill out this file to get your tests running on Github
 # Documentation https://docs.github.com/en/actions/quickstart
+
+name: Running test
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install modules
+      run: npm install
+    - name: run tests
+      run: npm test
+

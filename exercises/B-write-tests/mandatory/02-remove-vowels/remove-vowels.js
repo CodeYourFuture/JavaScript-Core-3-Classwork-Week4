@@ -5,7 +5,7 @@ function removeVowels(word) {
 
   const result = [];
 
-  characters.forEach(function(character) {
+  characters.forEach(function (character) {
     if (
       character !== "a" &&
       character !== "o" &&

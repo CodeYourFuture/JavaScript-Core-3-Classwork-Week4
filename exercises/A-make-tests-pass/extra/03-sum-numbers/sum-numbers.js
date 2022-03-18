@@ -1,3 +1,3 @@
 module.exports = function sumNumbers(numbers) {
-  /* Implement the function to make the tests pass */
+  return numbers.reduce((num1, num2) => num1 + num2)
 }

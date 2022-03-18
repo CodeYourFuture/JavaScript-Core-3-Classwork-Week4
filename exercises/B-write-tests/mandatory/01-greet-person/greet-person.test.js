@@ -4,9 +4,30 @@ const greetPerson = require("./greet-person");
 
 test("return person's name prefixed with Hello", () => {
   // Arrange
+  const name = "Daniel";
+  const expected = "Hello Daniel";
   // Act
+  const output = greetPerson(name);
   // Assert
- let result = greetPerson("jasin");
- expect(result).toEqual("Hello jasin");
+  expect(output).toEqual(expected);
+});
 
+test("return person's name prefixed with Hello", () => {
+  // Arrange
+  const name = "Ali";
+  const expected = "Hello Ali";
+  // Act
+  const output = greetPerson(name);
+  // Assert
+  expect(output).toEqual(expected);
+});
+
+test("return person's name prefixed with Hello", () => {
+  // Arrange
+  const name = "Saman";
+  const expected = "Hello Saman";
+  // Act
+  const output = greetPerson(name);
+  // Assert
+  expect(output).toEqual(expected);
 });

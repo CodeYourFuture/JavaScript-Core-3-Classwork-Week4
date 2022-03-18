@@ -6,4 +6,7 @@ test("remove vowels from word", () => {
   // Arrange
   // Act
   // Assert
+
+  let result = removeVowels("Mike")
+  expect(result).toEqual("mk")
 });

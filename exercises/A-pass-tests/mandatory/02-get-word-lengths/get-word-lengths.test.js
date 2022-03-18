@@ -9,3 +9,4 @@ test("Get word lengths", () => {
   const output = getWordLengths(words);
   expect(output).toEqual(expected);
 });
+

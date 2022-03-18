@@ -1,6 +1,6 @@
 # Fill out this file to get your tests running on Github
 # Documentation https://docs.github.com/en/actions/quickstart
-name: GitHub Actions Demo
+name: Test all files in the repo 
  on:
   push:
     branches: [ main ]
@@ -16,3 +16,4 @@ jobs:
       run: npm install
     - name: run tests
       run: npm test
+

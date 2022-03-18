@@ -11,6 +11,8 @@ module.exports = numbersGreaterThan10;
 /*
   Let's trace this piece of code - what is the value of result with this input?
 
+  The result value will be: [12, 100];
+
   const numbers = [1, 5, 10, 12, 100]
   const result = numbersGreaterThan10(numbers);
 */

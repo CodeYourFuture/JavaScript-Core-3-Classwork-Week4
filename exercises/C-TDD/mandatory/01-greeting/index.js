@@ -1,1 +1,2 @@
-const greet = () => {}
+const greet = () => {};
+module.exports = greet;

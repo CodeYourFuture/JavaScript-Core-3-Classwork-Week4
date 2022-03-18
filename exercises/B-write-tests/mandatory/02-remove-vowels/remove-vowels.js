@@ -2,7 +2,6 @@
 
 function removeVowels(word) {
   const characters = word.toLowerCase().split("");
-
   const result = [];
 
   characters.forEach(function(character) {

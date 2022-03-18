@@ -4,6 +4,10 @@ const greet = require("./index")
 
 test("", () => {
     // Arrange
+    let name = ''
+    let result = "Hello, my friend.";
     // Act
-    // Assert
+    let execute =
+      // Assert
+      expect(greet(name)).toEqual(result);
 });

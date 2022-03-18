@@ -4,6 +4,10 @@ const removeVowels = require("./remove-vowels");
 
 test("remove vowels from word", () => {
   // Arrange
+  let result = removeVowels("jasin");
   // Act
+  const actualOutput = "jsn"
   // Assert
+  expect(result).toEqual(actualOutput);
+  
 });

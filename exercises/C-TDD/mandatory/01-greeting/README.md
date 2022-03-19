@@ -9,6 +9,7 @@ Handle `nulls` by introducing a stand-in. For example, when name is `null`, then
 Requirement 3
 Handle shouting. When name is all uppercase, then the method should shout back to the user. For example, when `name` is `"JERRY"` then the method should return the string `"HELLO JERRY!"`
 
+
 Requirement 4
 Handle two names of input. When `name` is an array of two names, then both names should be printed. For example, when `name` is `["Jill", "Jane"]`, then the method should return the string `"Hello, Jill and Jane."`
 

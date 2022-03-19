@@ -14,3 +14,11 @@ test("return person's name prefixed with Hello", () => {
 
   expect(output).toEqual(expected);
 });
+
+
+// const greetPerson = require("./greet-person");
+
+// test("return person's name prefixed with Hello", () => {
+//   expect(greetPerson("Helen")).toEqual("Hello Helen");
+// });
+

@@ -6,6 +6,11 @@ function greetPerson(person) {
   return greeting + person;
 }
 
+const expected = "Hello Sam"
+console.log("expected: " + expected)
+console.log("got: " + greetPerson("Sam"))
+console.log(expected == greetPerson("Alex") )
+
 module.exports = greetPerson;
 
 /*

@@ -2,6 +2,6 @@
 
 module.exports = function addOne(numbers) {
   /* Implement the function to make the tests pass */
-return numbers.map(e => e += 1)
+return numbers.map(element => element += 1)
 
 }

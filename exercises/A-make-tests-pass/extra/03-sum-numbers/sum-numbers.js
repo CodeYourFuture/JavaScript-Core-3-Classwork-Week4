@@ -3,3 +3,4 @@ module.exports = function sumNumbers(numbers) {
 let sumOfNumbers = numbers.reduce((previousValue, currentValue)=> previousValue + currentValue, 0 )
 return sumOfNumbers;
 }
+//update

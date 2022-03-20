@@ -4,6 +4,10 @@ const removeVowels = require("./remove-vowels");
 
 test("remove vowels from word", () => {
   // Arrange
+  let word = "samuel";
   // Act
+  let expected = "sml";
   // Assert
+  let result = removeVowels(word);
+  expect(result).toEqual(expected);
 });

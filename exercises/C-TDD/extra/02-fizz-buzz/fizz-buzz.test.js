@@ -1,4 +1,4 @@
-var fizzbuzz = require("./fizz-buzz");
+let fizzbuzz = require("./fizz-buzz");
 
 /* Complete the tests */
 

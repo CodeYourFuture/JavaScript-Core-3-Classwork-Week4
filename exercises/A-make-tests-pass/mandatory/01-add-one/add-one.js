@@ -1,3 +1,8 @@
 module.exports = function addOne(numbers) {
-  /* Implement the function to make the tests pass */
+  const arr = [];
+  numbers.forEach(item => {
+    item += 1;
+    arr.push(item)
+  })
+  return arr
 };

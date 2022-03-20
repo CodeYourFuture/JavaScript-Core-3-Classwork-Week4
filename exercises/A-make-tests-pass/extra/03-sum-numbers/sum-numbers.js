@@ -1,3 +1,5 @@
 module.exports = function sumNumbers(numbers) {
-  /* Implement the function to make the tests pass */
+  let total = 0;
+  numbers.forEach(item => total += item);
+  return total
 }

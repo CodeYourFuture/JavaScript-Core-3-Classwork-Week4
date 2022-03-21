@@ -1,3 +1,6 @@
 module.exports = function getWordLengths(someWords) {
-  /* Implement the function to make the tests pass */
+  const wordsLength = someWords.map((words) => {
+    return words.length;
+  });
+  return wordsLength;
 };

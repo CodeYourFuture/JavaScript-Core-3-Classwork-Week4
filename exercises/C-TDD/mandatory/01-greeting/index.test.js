@@ -48,6 +48,7 @@ describe("Requirement4", () => {
   });
 });
 
+
 describe("Requirement5", () => {
   test("name is [Amy, Brian, Charlotte], then the method should return the string Hello, Amy, Brian, and Charlotte.", () => {
     const name = ["Amy", "Brian", "Charlotte"];

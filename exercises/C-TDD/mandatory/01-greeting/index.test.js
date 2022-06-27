@@ -6,4 +6,8 @@ test("", () => {
     // Arrange
     // Act
     // Assert
+    let input= `Bob`
+    let output = greet(input)
+    let expected = "Hello, Bob"
+    expect(expected).toEqual(output)
 });

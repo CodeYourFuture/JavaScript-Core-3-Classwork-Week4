@@ -1,10 +1,8 @@
 /* Do not change this file */
 
 function numbersGreaterThan10(numbersArray) {
-  return numbersArray.filter(number => {
-    return number > 10;
-  });
-};
+  return numbersArray.filter((number) => number > 10);
+}
 
 module.exports = numbersGreaterThan10;
 

@@ -1,7 +1,7 @@
 /* Do not change this file */
 
 function greetPerson(person) {
-  const greeting = "Hello ";
+  const greeting = `Hello, ${person}.`;
 
   return greeting + person;
 }

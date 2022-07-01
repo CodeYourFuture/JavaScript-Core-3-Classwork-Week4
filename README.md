@@ -1,4 +1,4 @@
-# JavaScript-Core-3-Classwork-Week4-London8
+# JavaScript-Core-3-Classwork-Week4
 
 This repo contains exercises for use in class.
 
@@ -36,7 +36,7 @@ The final exercise involves using TDD to implement the function. You can run onl
 
 The solutions for this classwork can be found here:
 
-https://github.com/CodeYourFuture/JavaScript-Core-3-Classwork-Week4-London8-Solution
+https://github.com/CodeYourFuture/JavaScript-Core-3-Classwork-Week4-Solution
 
 This is a **private** repository. Please request access from your Teachers, Buddy or City Coordinator after the lesson.
 

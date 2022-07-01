@@ -8,7 +8,7 @@ function countEvenNumbers(numbers) {
   if (evenNumbers.length > 0) {
     return `Even number count: ${evenNumbers.length}`;
   } else {
-    return 'There are no even numbers';
+    return "No even number found";
   }
 }
 
